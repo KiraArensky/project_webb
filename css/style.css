@@ -1,3 +1,5 @@
+/* header */
+
 header {
     text-align: justify;
     letter-spacing: 2px;
@@ -35,6 +37,57 @@ header::after {
     height:7%;
     background: rgb(218, 71, 71);
 }
+
+/* header close */
+
+/* main */
+
 .logo {
     display: inline-block;
 }
+.main__peper {
+    display: inline-block;
+}
+.banner {
+    text-align: center;
+}
+.main__scorpio {
+    display: inline-block;
+}
+
+/* main menu button */
+
+.menu_list {
+    display: inline-block;
+}
+.product {
+    position: relative;
+    padding-right: 2em;
+}
+.main__house {
+    display: block;
+    width: 90%;
+    left: 5em;
+    position: relative;
+}
+.main__product {
+    display: block;
+    position: absolute;
+    width: 65%;
+    top: 15em;
+    left: 7.5em;
+}
+.main__text_menu {
+    text-align: center;
+    position: absolute;
+    width: 65%;
+    top: 6em;
+    left: 5em;
+}
+h3.main__text_menu{
+    left: 7em;
+}
+
+/* main menu button close*/
+
+/* main close */
