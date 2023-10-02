@@ -1,0 +1,40 @@
+header {
+    text-align: justify;
+    letter-spacing: 2px;
+    height: 2em;
+    padding: 2em;
+    padding-top: 1em;
+    background: wheat;
+    color: black;
+}
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.header__logo, .header__nav {
+    display: inline-block;
+}
+.header__text {
+    padding-top: 0;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.header__logo  {
+    height: 100%;
+}
+ 
+.header__logo::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;  
+    height: 150%;
+}
+#header__rectangle {
+    width:500px;
+    height:7%;
+    background: rgb(218, 71, 71);
+}
+.logo {
+    display: inline-block;
+}
