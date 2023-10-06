@@ -42,10 +42,10 @@ header::after {
 
 /* main */
 
-.logo {
-    display: inline-block;
+.main__offer {
+    text-align: center;
 }
-.main__peper {
+.logo {
     display: inline-block;
 }
 .banner {
@@ -57,6 +57,9 @@ header::after {
 
 /* main menu button */
 
+.menu {
+    text-align: center;
+}
 .menu_list {
     display: inline-block;
 }
@@ -67,7 +70,7 @@ header::after {
 .main__house {
     display: block;
     width: 90%;
-    left: 5em;
+    left: 1.8em;
     position: relative;
 }
 .main__product {
@@ -75,19 +78,38 @@ header::after {
     position: absolute;
     width: 65%;
     top: 15em;
-    left: 7.5em;
+    left: 4.3em;
 }
 .main__text_menu {
     text-align: center;
     position: absolute;
     width: 65%;
     top: 6em;
-    left: 5em;
+    left: 3em;
 }
-h3.main__text_menu{
-    left: 7em;
+h3.main__text_menu {
+    left: 3.8em;
 }
-
+.main__fire_icon {
+    display: block;
+    position: absolute;
+    top: 1em;
+    width: 13%;
+    left: -2.4em;
+}
+#right {
+   left: 26.8em; 
+}
 /* main menu button close*/
+
+.main__peper_all {
+    text-align: center;
+}
+.main__peper {
+    display: inline-block;
+}
+.main__cup {
+    text-align: center;
+}
 
 /* main close */
