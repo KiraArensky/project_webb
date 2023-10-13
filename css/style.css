@@ -112,4 +112,69 @@ h3.main__text_menu {
     text-align: center;
 }
 
+/* main article start */
+
+.article {
+    text-align: center;
+}
+.article_list_div {
+    display: inline-block;
+}
+.main__article {
+    display: block;
+    position: absolute;
+    top: 170.5em;
+    left: 58em;
+    right: 13.5em;
+    bottom: 5em;
+}
+.article_list_h1 {
+    font-size: 3em;
+}
+
+/* main article close */
+
+.footer {
+    text-align: center;
+}
+.footer__logo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 98.5em;
+    text-align: center;
+}
+.footer__text {
+    color: #cefd3b;
+}
+#PRIVACY {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 5em;
+    right: 0;
+    top: 258em;
+    text-align: left;
+}
+#UJJO {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 258em;
+    text-align: center;
+}
+#INSTAGRAM {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 5em;
+    top: 258em;
+    text-align: right;
+}
+
 /* main close */
