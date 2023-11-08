@@ -4,11 +4,11 @@
 .header{
     position: fixed;
     z-index: 1;
-    height: 112px;
+    height: 13%;
     width: 95.85%;
     border: 1px solid black;
     background-color: aliceblue;
-    margin: -0.6% 1.5% 0 1.5%;
+    margin: 0 1.5% 0 1.5%;
     vertical-align: middle;
 }
  
@@ -17,8 +17,8 @@
     left: 42%;
     right: 42%;
     top: 16%;
-    width: 199.25px;
-    height: 70px;
+    width: 15%;
+    height: 65%;
 }
 
 .header__nav_l {
@@ -38,21 +38,21 @@
 .header__text {
     text-align: justify;
     color: #222222;
-    font-size: 14px;
+    font-size: 100%;
     font-family: Roboto;
     text-transform: uppercase;
-    line-height: 21.60px;
-    letter-spacing: 0.50px;
-    padding-left: 4em;
-    padding-right: 4em;
+    line-height: 21%;
+    letter-spacing: 0.5%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 #header__rectangle {
-    width: 144px; 
-    height: 52px; 
+    width: 144%; 
+    height: 52%; 
     background: #FB4B4D;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 /* header close */
@@ -60,7 +60,7 @@
 /* main */
 
 .main {
-    margin: 0 22.5px 0 22.5px;
+    margin: -0.5% 1.7% 0 1.5%;
     border-right: 1px solid black;
     border-left: 1px solid black;
 }
@@ -78,10 +78,10 @@
 }
 .main__scorpio {
     display: inline-block;
-    font-size: 3em;
+    font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: -0.2em 0 0 0;
+    margin: -0.2% 0 0 0;
 }
 #left.main__scorpio {
     width: 3.5em;
@@ -160,6 +160,7 @@ h3.main__text_menu {
 }
 .main__cup {
     text-align: center;
+    padding-top: 1.5%;
     padding-bottom: 1.5%;
 }
 
@@ -167,35 +168,30 @@ h3.main__text_menu {
 
 .article {
     text-align: center;
-    padding: 2% 0 2% 0;
 }
 .article_list {
     border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #div_1 {
-    margin: 0 1em 0 0;
+    padding: 0 1% 0 0;
 }
 #div_2 {
-    padding-left: 1em;
-    margin-right: -1em;
-    margin-bottom: -4em;
-    padding-bottom: 4%;
+    padding: 0 0 0 1.5%;
     border-left: 1px solid black;
 }
 .article_list_div {
     display: inline-block;
 }
 .main__back_star{
-    margin-top: 2em;
+    margin: 2.5em 0 2em 0;
 }
 .main__article {
-    padding: 2% 0 2% 0;
     display: block;
     position: absolute;
-    top: 183em;
-    left: 58em;
-    right: 13.5em;
-    bottom: 5em;
+    margin: -34.5em 0 0 8.5em;
 }
 .article_list_h1 {
     font-size: 3em;
@@ -205,47 +201,28 @@ h3.main__text_menu {
 
 .footer {
     text-align: center;
-    margin: 0 1.5% 0 1.5%;
-}
-
-.footer__logo {
-    border-left: 1px solid black;
+    margin: -0.5% 1.7% 0 1.5%;
     border-right: 1px solid black;
-    position: absolute;
-    z-index: -1;
-    width: 97.9%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 107em;
-    text-align: center;
+    border-left: 1px solid black;
+}
+.footer__img {
+    margin: -10em 0 -0.27em 0;
+    width: 100%;
+}
+.footer__text {
+    padding: 2em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #cefd3b;
 }
 #PRIVACY {
-    border: 1px solid black;
-    background-color: #cefd3b;
-    position: absolute; 
-    left: 1.9em;
-    padding: 1.5em 0 1.5em 8em;
-    right: 1.9em;
-    top: 274.8em;
-    text-align: left;
+    margin: 0 0 0 0;
 }
 #UJJO {
-    position: absolute;
-    left: 1.9em;
-    padding: 1.5em 0 1.5em 0;
-    right: 1.9em;
-    top: 274.8em;
-    text-align: center;
+    margin: 0 25em 0 25em;
 }
 #INSTAGRAM {
-    position: absolute;
-    left: 1.9em;
-    padding: 1.5em 8em 1.5em 0;
-    right: 1.9em;
-    top: 274.8em;
-    text-align: right;
+    margin: 0 0 0 0;
 }
 
 /* main close */
