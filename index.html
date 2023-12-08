@@ -4,37 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scorpio_sauce</title>
+    <script type="text/javascript" src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
         <nav class="header__nav_l">
-            <a class="header__text">
-                GO BACK
+            <button class="header__text" id="toggle-theme">
+                THEME
+            </button>
+            <a class="header__text" href="https://github.com/KiraArensky/project_webb">
+                GITHUB
             </a>
-            <a class="header__text">
-                STORY
-            </a>
-            <a class="header__text">
-                SHOP
-            </a>
-        </nav>
-        <img src="img/logo_head.svg" alt="header__logo" class="header__logo">
-        <nav class="header__nav_r">
-            <a class="header__text">
+            <a class="header__text" href="#contact_scroll">
                 CONTACT
             </a>
-            <a class="header__text">
-                WHOLESALE
+        </nav>
+        <a href="#main_scroll"><img src="img/logo_head.svg" alt="header__logo" class="header__logo"></a>
+        <nav class="header__nav_r">
+            <a class="header__text" href="#story_scroll">
+                STORY
             </a>
-            <a class="header__text" id="header__rectangle">
+            <a class="header__text" href="#shop_scroll">
+                SHOP
+            </a>
+            <a class="header__text" id="header__rectangle" href="#regist">
                 BUY
             </a>
         </nav>
     </header>
     <main class="main">
         <section>
-            <nav class="main__offer">
+            <nav class="main__offer" id="main_scroll">
                 <a class="logo">  
                     <div>
                         <img src="img/logo_main.svg" alt="main__logo" class="main__logo">
@@ -58,7 +59,7 @@
             <h1 class="main__scorpio">THROW SOME LAVA IN<br>YOUR JAVA</h1>
             <img src="img/scorpio_right.svg" alt="main__scorpio" class="main__scorpio" id="right">
         </div>    
-        <section class="menu">
+        <section class="menu" id="shop_scroll">
             <nav>
                 <a class="menu_list">
                     <div class="product">
@@ -90,8 +91,9 @@
                 </a>
             </nav>
         </section>
-        <nav class="main__peper_all">
-            <div class="main__peper">            
+        <marquee direction="right" scrollamount="15"  class="main__peper_all">
+            <div class="main__peper">
+                <img src="img/mini_pepper.svg" alt="main__peper" class="main__peper">            
                 <h2 class="main__peper">PUT SOME FIRE IN YOUR BELLY</h2>
                 <img src="img/mini_pepper.svg" alt="main__peper" class="main__peper">
             </div>
@@ -103,7 +105,7 @@
                 <h2 class="main__peper">PUT SOME FIRE IN YOUR BELLY</h2>
                 <img src="img/mini_pepper.svg" alt="main__peper" class="main__peper">
             </div>
-        </nav>
+        </marquee>
         <section class="article">
             <div class="article">
             <div class="main__cup">
@@ -115,7 +117,7 @@
                         <img src="img/women.jpg" alt="main__article__women" class="main__article__women">
                     </div>
                     <div class="article_list_div" id="div_2">
-                        <img src="img/background_star.svg" alt="main__back_star" class="main__back_star">
+                        <img src="img/background_star.svg" alt="main__back_star" class="main__back_star" id="story_scroll">
                         <span class="main__article">
                             HELLO, I’M LAUREN AND AS A LIFELONG<br>ADVENTUROUS EATER, I’VE TRIED A LOT OF<br>CRAZY THINGS, BUT I NEVER THOUGHT HOT<br>SAUCE IN COFFEE WAS A<br>SANE OPTION UNTIL A FRIEND DARED ME TO TRY IT.<br><br>
 
@@ -132,8 +134,9 @@
             </nav>
             </div>
         </section>
-        <nav class="main__peper_all">
-            <div class="main__peper">            
+        <marquee direction="right" scrollamount="15"  class="main__peper_all">
+            <div class="main__peper">
+                <img src="img/mini_pepper.svg" alt="main__peper" class="main__peper">            
                 <h2 class="main__peper">PUT SOME FIRE IN YOUR BELLY</h2>
                 <img src="img/mini_pepper.svg" alt="main__peper" class="main__peper">
             </div>
@@ -145,22 +148,30 @@
                 <h2 class="main__peper">PUT SOME FIRE IN YOUR BELLY</h2>
                 <img src="img/mini_pepper.svg" alt="main__peper" class="main__peper">
             </div>
-        </nav>
-        <div class="container" id="item1">
+        </marquee>
+        <div class="container" id="regist">
             <div class="wrapper">
               <div class="title"><span>MAKE ORDER</span></div>
-              <form action="#">
+              <form action="php/backend.php" method="post">
                 <div class="row">
                     <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Name" required name="custname">
                 </div>
                 <div class="row">
                   <i class="fas fa-user"></i>
-                  <input type="email" placeholder="Email" required>
+                  <input type="email" placeholder="Email" required name="custemail">
                 </div>
                 <div class="row">
                     <i class="fas fa-user"></i>
-                    <input type="tel" placeholder="Number" required>
+                    <input type="tel" placeholder="Number" required name="custnumber">
+                </div>
+                <div class="radio">
+                    <input type="radio" id="shop_1" name="shop" required value="LIGHT ROAST BLEND" />
+                    <label for="shop_1">LIGHT ROAST BLEND</label>
+                    <input type="radio" id="shop_2" name="shop" required value="UJJO SAMPLER PACK" />
+                    <label for="shop_2">UJJO SAMPLER PACK</label>
+                    <input type="radio" id="shop_3" name="shop" required value="DARK ROAST BLEND" />
+                    <label for="shop_3">DARK ROAST BLEND</label>
                 </div>
                 <div class="button">
                   <input type="submit" value="BUY">
@@ -176,7 +187,7 @@
                     <img src="img/big_logo.svg" alt="footer__img" class="footer__img">
                 </div>
             </nav>
-            <nav class="footer__text">
+            <nav class="footer__text" id="contact_scroll">
                 <a class="footer__text_a" id="PRIVACY">
                     PRIVACY
                 </a>
@@ -188,7 +199,6 @@
                 </a>
             </nav>
         </nav>
-    
     </footer>
 </body>
 </html>
