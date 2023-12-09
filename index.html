@@ -148,22 +148,24 @@
                 <img src="img/mini_pepper.svg" alt="main__peper" class="main__peper">
             </div>
         </marquee>
-        <!-- тут  -->
         <div class="container" id="regist">
             <div class="wrapper">
               <div class="title"><span>MAKE ORDER</span></div>
-              <form action="php/backend.php" method="post">
+              <div class="done">
+                done
+                </div>
+              <form action="php/backend.php" method="POST" id="regist_form">
                 <div class="row">
                     <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Name" required name="custname">
+                    <input type="text" placeholder="Name" required name="name">
                 </div>
                 <div class="row">
                   <i class="fas fa-user"></i>
-                  <input type="email" placeholder="Email" required name="custemail">
+                  <input type="email" placeholder="Email" required name="email">
                 </div>
                 <div class="row">
                     <i class="fas fa-user"></i>
-                    <input type="tel" placeholder="Number" required name="custnumber">
+                    <input type="tel" placeholder="Number" required name="phone">
                 </div>
                 <div class="radio__main">
                     <div class="radio">
@@ -185,10 +187,6 @@
               </form>
             </div>
           </div>
-        <!-- тут  -->
-        <div class="container" id="done">
-            done
-        </div>
     </main>
     <footer>
         <nav class="footer">
